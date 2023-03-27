@@ -1,0 +1,169 @@
+<mxfile host="app.diagrams.net" modified="2023-02-13T09:50:39.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="n_E4VPJZXAC40hcQwJ0u" version="20.8.20" type="github">
+  <diagram name="Page-1" id="AQ1jUqpuI6jIbz0TZkuh">
+    <mxGraphModel dx="2049" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jtClNlTdsSyNZT0PQHNB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jtClNlTdsSyNZT0PQHNB-1" target="jtClNlTdsSyNZT0PQHNB-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jtClNlTdsSyNZT0PQHNB-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jtClNlTdsSyNZT0PQHNB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jtClNlTdsSyNZT0PQHNB-2" target="jtClNlTdsSyNZT0PQHNB-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="300" />
+              <mxPoint x="400" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jtClNlTdsSyNZT0PQHNB-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jtClNlTdsSyNZT0PQHNB-2" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Declare a Node class with two atributes: data and next. Set their default values to None&lt;/font&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jtClNlTdsSyNZT0PQHNB-4" target="8hUnHKPCjf4vgDDvsmy4-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="jtClNlTdsSyNZT0PQHNB-4" target="8hUnHKPCjf4vgDDvsmy4-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jtClNlTdsSyNZT0PQHNB-4" value="Declare a Linked List class with a single attribute: value" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="328" y="350" width="144" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-1" target="8hUnHKPCjf4vgDDvsmy4-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-1" target="8hUnHKPCjf4vgDDvsmy4-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-1" value="Define a method that inserts a new node at the end of the Linked List" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-7" value="Define a constructor to initialize the attributes: &lt;br&gt;data and next" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="210" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-9" value="Define a constructor to &lt;br&gt;initialize the head value &lt;br&gt;and tail value to the &lt;br&gt;initial Node data&amp;nbsp;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="564" y="350" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-11" target="8hUnHKPCjf4vgDDvsmy4-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-11" value="Create a new node object that takes the initial node data" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-14" target="8hUnHKPCjf4vgDDvsmy4-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-14" value="Initialize the next attribute of the tail to the new node" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="758.5" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-19" value="Set the tail of the linked list to the new node" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;startArrow=none;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-33" target="8hUnHKPCjf4vgDDvsmy4-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-36" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-28" target="8hUnHKPCjf4vgDDvsmy4-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-28" value="Is the head of the Linked list empty?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="760" y="460" width="117" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-35" value="Initialize the head and tail value to the new node" style="whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="955.5" y="497" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;endArrow=none;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-28" target="8hUnHKPCjf4vgDDvsmy4-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="819" y="594" as="sourcePoint" />
+            <mxPoint x="819" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-33" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="798.5" y="606" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-38" target="8hUnHKPCjf4vgDDvsmy4-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-38" value="Define a method for printing the linked list" style="whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="340" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-42" target="8hUnHKPCjf4vgDDvsmy4-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-42" target="8hUnHKPCjf4vgDDvsmy4-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-42" value="Is the head of the Linked list empty?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="480" y="780" width="117" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-45" target="8hUnHKPCjf4vgDDvsmy4-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-45" value="Print &quot;Linked list is empty&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="478.5" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-47" target="8hUnHKPCjf4vgDDvsmy4-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-47" value="Initialize a pointer node to the head of the linked list" style="whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="678.5" y="808.5" width="131.5" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-51" target="8hUnHKPCjf4vgDDvsmy4-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-51" value="Print the data of the pointer node" style="whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="850" y="817" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.495;entryY=0.046;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=11;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-53" target="8hUnHKPCjf4vgDDvsmy4-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-53" value="Move the pointer node to the next node" style="whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="817" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;entryX=0.454;entryY=-0.047;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-56" target="I8sH27Teu61nFGA-cM0N-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="981" />
+              <mxPoint x="1240" y="997" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-61" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="8hUnHKPCjf4vgDDvsmy4-60" vertex="1" connectable="0">
+          <mxGeometry x="-0.2771" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" parent="1" source="8hUnHKPCjf4vgDDvsmy4-56" target="8hUnHKPCjf4vgDDvsmy4-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-64" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;" parent="8hUnHKPCjf4vgDDvsmy4-63" vertex="1" connectable="0">
+          <mxGeometry x="-0.6111" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-56" value="Is next value null?" style="rhombus;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1051.5" y="914" width="117" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-59" value="Stop" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="941" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8hUnHKPCjf4vgDDvsmy4-65" value="Stop" style="ellipse;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="640" y="960" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="I8sH27Teu61nFGA-cM0N-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" edge="1" parent="1" source="I8sH27Teu61nFGA-cM0N-1" target="8hUnHKPCjf4vgDDvsmy4-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I8sH27Teu61nFGA-cM0N-1" value="Print the data of the pointer node" style="whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
